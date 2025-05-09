@@ -20,4 +20,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latest          
+          tags: ${{secrets.DOCKERHUB_USERNAME}}/guessing-game:latest          
